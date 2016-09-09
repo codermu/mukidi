@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAAFBA61D82992F00BB5175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAFBA51D82992F00BB5175 /* AppDelegate.swift */; };
+		2AAAFBA81D82992F00BB5175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAFBA71D82992F00BB5175 /* ViewController.swift */; };
+		2AAAFBAB1D82992F00BB5175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AAAFBA91D82992F00BB5175 /* Main.storyboard */; };
+		2AAAFBAD1D82992F00BB5175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAAFBAC1D82992F00BB5175 /* Assets.xcassets */; };
+		2AAAFBB01D82992F00BB5175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AAAFBAE1D82992F00BB5175 /* LaunchScreen.storyboard */; };
+		2AAAFBBB1D82992F00BB5175 /* Mukidi_StyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAFBBA1D82992F00BB5175 /* Mukidi_StyleTests.swift */; };
+		2AAAFBC61D82992F00BB5175 /* Mukidi_StyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAFBC51D82992F00BB5175 /* Mukidi_StyleUITests.swift */; };
+		2AE677221D829C1C0012CE73 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE677211D829C1C0012CE73 /* libsqlite3.dylib */; };
+		2AE677241D829FEC0012CE73 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE677231D829FEC0012CE73 /* CustomCell.swift */; };
+		2AE677261D82A7760012CE73 /* JokeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE677251D82A7760012CE73 /* JokeDetailController.swift */; };
+		2AE677281D82A8690012CE73 /* mukidi.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AE677271D82A8690012CE73 /* mukidi.sqlite3 */; };
+		2AE6772A1D82A8770012CE73 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE677291D82A8770012CE73 /* Model.swift */; };
+		4604AE1C68EBF592E1B252BB /* Pods_Mukidi_StyleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CADF488FB2D75D311F6925 /* Pods_Mukidi_StyleUITests.framework */; };
+		5BCDF4C344AA3B2E48369C5F /* Pods_Mukidi_StyleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B051E347F315AF55281B33E0 /* Pods_Mukidi_StyleTests.framework */; };
+		5F64C66743ED02DE51A4AF8D /* Pods_Mukidi_Style.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB74001326F8C0D67C40C16C /* Pods_Mukidi_Style.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AAAFBB71D82992F00BB5175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AAAFB9A1D82992F00BB5175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AAAFBA11D82992F00BB5175;
+			remoteInfo = "Mukidi Style";
+		};
+		2AAAFBC21D82992F00BB5175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AAAFB9A1D82992F00BB5175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AAAFBA11D82992F00BB5175;
+			remoteInfo = "Mukidi Style";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11891C97C93B4756D448BCE5 /* Pods-Mukidi StyleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi StyleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi StyleUITests/Pods-Mukidi StyleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAAFBA21D82992F00BB5175 /* Mukidi Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukidi Style.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAAFBA51D82992F00BB5175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AAAFBA71D82992F00BB5175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AAAFBAA1D82992F00BB5175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AAAFBAC1D82992F00BB5175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AAAFBAF1D82992F00BB5175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AAAFBB11D82992F00BB5175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAAFBB61D82992F00BB5175 /* Mukidi StyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mukidi StyleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAAFBBA1D82992F00BB5175 /* Mukidi_StyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mukidi_StyleTests.swift; sourceTree = "<group>"; };
+		2AAAFBBC1D82992F00BB5175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAAFBC11D82992F00BB5175 /* Mukidi StyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mukidi StyleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAAFBC51D82992F00BB5175 /* Mukidi_StyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mukidi_StyleUITests.swift; sourceTree = "<group>"; };
+		2AAAFBC71D82992F00BB5175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAAFBD51D829AED00BB5175 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2AE677211D829C1C0012CE73 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		2AE677231D829FEC0012CE73 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2AE677251D82A7760012CE73 /* JokeDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeDetailController.swift; sourceTree = "<group>"; };
+		2AE677271D82A8690012CE73 /* mukidi.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mukidi.sqlite3; sourceTree = "<group>"; };
+		2AE677291D82A8770012CE73 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		48764EFEE96247869C68067B /* Pods-Mukidi StyleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi StyleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi StyleTests/Pods-Mukidi StyleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60CADF488FB2D75D311F6925 /* Pods_Mukidi_StyleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mukidi_StyleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B9EF70C759A780310AC97E /* Pods-Mukidi Style.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi Style.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi Style/Pods-Mukidi Style.debug.xcconfig"; sourceTree = "<group>"; };
+		7C69528AC1B7C9CA4D64B337 /* Pods-Mukidi Style.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi Style.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi Style/Pods-Mukidi Style.release.xcconfig"; sourceTree = "<group>"; };
+		B051E347F315AF55281B33E0 /* Pods_Mukidi_StyleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mukidi_StyleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA36544BD34585BADBBC634C /* Pods-Mukidi StyleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi StyleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi StyleUITests/Pods-Mukidi StyleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB74001326F8C0D67C40C16C /* Pods_Mukidi_Style.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mukidi_Style.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62E411F34330B4B6186DD25 /* Pods-Mukidi StyleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mukidi StyleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mukidi StyleTests/Pods-Mukidi StyleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAAFB9F1D82992F00BB5175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE677221D829C1C0012CE73 /* libsqlite3.dylib in Frameworks */,
+				5F64C66743ED02DE51A4AF8D /* Pods_Mukidi_Style.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBB31D82992F00BB5175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCDF4C344AA3B2E48369C5F /* Pods_Mukidi_StyleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBBE1D82992F00BB5175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604AE1C68EBF592E1B252BB /* Pods_Mukidi_StyleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAAFB991D82992F00BB5175 = {
+			isa = PBXGroup;
+			children = (
+				2AAAFBD51D829AED00BB5175 /* Bridging-Header.h */,
+				2AAAFBA41D82992F00BB5175 /* Mukidi Style */,
+				2AAAFBB91D82992F00BB5175 /* Mukidi StyleTests */,
+				2AAAFBC41D82992F00BB5175 /* Mukidi StyleUITests */,
+				2AAAFBA31D82992F00BB5175 /* Products */,
+				B32A404D003A69152DC285AE /* Pods */,
+				6E329492C4BBFA25FE7CAFF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AAAFBA31D82992F00BB5175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AAAFBA21D82992F00BB5175 /* Mukidi Style.app */,
+				2AAAFBB61D82992F00BB5175 /* Mukidi StyleTests.xctest */,
+				2AAAFBC11D82992F00BB5175 /* Mukidi StyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAAFBA41D82992F00BB5175 /* Mukidi Style */ = {
+			isa = PBXGroup;
+			children = (
+				2AE677271D82A8690012CE73 /* mukidi.sqlite3 */,
+				2AAAFBA51D82992F00BB5175 /* AppDelegate.swift */,
+				2AAAFBA71D82992F00BB5175 /* ViewController.swift */,
+				2AE677291D82A8770012CE73 /* Model.swift */,
+				2AE677251D82A7760012CE73 /* JokeDetailController.swift */,
+				2AAAFBA91D82992F00BB5175 /* Main.storyboard */,
+				2AE677231D829FEC0012CE73 /* CustomCell.swift */,
+				2AAAFBAC1D82992F00BB5175 /* Assets.xcassets */,
+				2AAAFBAE1D82992F00BB5175 /* LaunchScreen.storyboard */,
+				2AAAFBB11D82992F00BB5175 /* Info.plist */,
+			);
+			path = "Mukidi Style";
+			sourceTree = "<group>";
+		};
+		2AAAFBB91D82992F00BB5175 /* Mukidi StyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AAAFBBA1D82992F00BB5175 /* Mukidi_StyleTests.swift */,
+				2AAAFBBC1D82992F00BB5175 /* Info.plist */,
+			);
+			path = "Mukidi StyleTests";
+			sourceTree = "<group>";
+		};
+		2AAAFBC41D82992F00BB5175 /* Mukidi StyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AAAFBC51D82992F00BB5175 /* Mukidi_StyleUITests.swift */,
+				2AAAFBC71D82992F00BB5175 /* Info.plist */,
+			);
+			path = "Mukidi StyleUITests";
+			sourceTree = "<group>";
+		};
+		6E329492C4BBFA25FE7CAFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE677211D829C1C0012CE73 /* libsqlite3.dylib */,
+				CB74001326F8C0D67C40C16C /* Pods_Mukidi_Style.framework */,
+				B051E347F315AF55281B33E0 /* Pods_Mukidi_StyleTests.framework */,
+				60CADF488FB2D75D311F6925 /* Pods_Mukidi_StyleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32A404D003A69152DC285AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76B9EF70C759A780310AC97E /* Pods-Mukidi Style.debug.xcconfig */,
+				7C69528AC1B7C9CA4D64B337 /* Pods-Mukidi Style.release.xcconfig */,
+				48764EFEE96247869C68067B /* Pods-Mukidi StyleTests.debug.xcconfig */,
+				D62E411F34330B4B6186DD25 /* Pods-Mukidi StyleTests.release.xcconfig */,
+				11891C97C93B4756D448BCE5 /* Pods-Mukidi StyleUITests.debug.xcconfig */,
+				BA36544BD34585BADBBC634C /* Pods-Mukidi StyleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AAAFBA11D82992F00BB5175 /* Mukidi Style */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAAFBCA1D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi Style" */;
+			buildPhases = (
+				377A1F2A9E04F93FB07FC594 /* [CP] Check Pods Manifest.lock */,
+				2AAAFB9E1D82992F00BB5175 /* Sources */,
+				2AAAFB9F1D82992F00BB5175 /* Frameworks */,
+				2AAAFBA01D82992F00BB5175 /* Resources */,
+				C79BFF7844132C9AE279318F /* [CP] Embed Pods Frameworks */,
+				83273EDE4F16FB3439CAAAD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mukidi Style";
+			productName = "Mukidi Style";
+			productReference = 2AAAFBA21D82992F00BB5175 /* Mukidi Style.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AAAFBB51D82992F00BB5175 /* Mukidi StyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAAFBCD1D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi StyleTests" */;
+			buildPhases = (
+				8C7ABAEB5582ED78471AE387 /* [CP] Check Pods Manifest.lock */,
+				2AAAFBB21D82992F00BB5175 /* Sources */,
+				2AAAFBB31D82992F00BB5175 /* Frameworks */,
+				2AAAFBB41D82992F00BB5175 /* Resources */,
+				07B17E1C5D1E2BAEBE76A658 /* [CP] Embed Pods Frameworks */,
+				7E6520DE3E87F090F9ED914D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AAAFBB81D82992F00BB5175 /* PBXTargetDependency */,
+			);
+			name = "Mukidi StyleTests";
+			productName = "Mukidi StyleTests";
+			productReference = 2AAAFBB61D82992F00BB5175 /* Mukidi StyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AAAFBC01D82992F00BB5175 /* Mukidi StyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAAFBD01D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi StyleUITests" */;
+			buildPhases = (
+				D9BD7684153DB64B146F00A9 /* [CP] Check Pods Manifest.lock */,
+				2AAAFBBD1D82992F00BB5175 /* Sources */,
+				2AAAFBBE1D82992F00BB5175 /* Frameworks */,
+				2AAAFBBF1D82992F00BB5175 /* Resources */,
+				3163C10E9CE92846BD6BE3B5 /* [CP] Embed Pods Frameworks */,
+				57DAEE38C2A12DEC1D1649FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AAAFBC31D82992F00BB5175 /* PBXTargetDependency */,
+			);
+			name = "Mukidi StyleUITests";
+			productName = "Mukidi StyleUITests";
+			productReference = 2AAAFBC11D82992F00BB5175 /* Mukidi StyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AAAFB9A1D82992F00BB5175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Indosytem;
+				TargetAttributes = {
+					2AAAFBA11D82992F00BB5175 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2AAAFBB51D82992F00BB5175 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2AAAFBA11D82992F00BB5175;
+					};
+					2AAAFBC01D82992F00BB5175 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2AAAFBA11D82992F00BB5175;
+					};
+				};
+			};
+			buildConfigurationList = 2AAAFB9D1D82992F00BB5175 /* Build configuration list for PBXProject "Mukidi Style" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AAAFB991D82992F00BB5175;
+			productRefGroup = 2AAAFBA31D82992F00BB5175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AAAFBA11D82992F00BB5175 /* Mukidi Style */,
+				2AAAFBB51D82992F00BB5175 /* Mukidi StyleTests */,
+				2AAAFBC01D82992F00BB5175 /* Mukidi StyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AAAFBA01D82992F00BB5175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE677281D82A8690012CE73 /* mukidi.sqlite3 in Resources */,
+				2AAAFBB01D82992F00BB5175 /* LaunchScreen.storyboard in Resources */,
+				2AAAFBAD1D82992F00BB5175 /* Assets.xcassets in Resources */,
+				2AAAFBAB1D82992F00BB5175 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBB41D82992F00BB5175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBBF1D82992F00BB5175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B17E1C5D1E2BAEBE76A658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi StyleTests/Pods-Mukidi StyleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3163C10E9CE92846BD6BE3B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi StyleUITests/Pods-Mukidi StyleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		377A1F2A9E04F93FB07FC594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57DAEE38C2A12DEC1D1649FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi StyleUITests/Pods-Mukidi StyleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6520DE3E87F090F9ED914D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi StyleTests/Pods-Mukidi StyleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83273EDE4F16FB3439CAAAD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi Style/Pods-Mukidi Style-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7ABAEB5582ED78471AE387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79BFF7844132C9AE279318F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mukidi Style/Pods-Mukidi Style-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BD7684153DB64B146F00A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAAFB9E1D82992F00BB5175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE6772A1D82A8770012CE73 /* Model.swift in Sources */,
+				2AAAFBA81D82992F00BB5175 /* ViewController.swift in Sources */,
+				2AE677261D82A7760012CE73 /* JokeDetailController.swift in Sources */,
+				2AE677241D829FEC0012CE73 /* CustomCell.swift in Sources */,
+				2AAAFBA61D82992F00BB5175 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBB21D82992F00BB5175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAAFBBB1D82992F00BB5175 /* Mukidi_StyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAAFBBD1D82992F00BB5175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAAFBC61D82992F00BB5175 /* Mukidi_StyleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AAAFBB81D82992F00BB5175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AAAFBA11D82992F00BB5175 /* Mukidi Style */;
+			targetProxy = 2AAAFBB71D82992F00BB5175 /* PBXContainerItemProxy */;
+		};
+		2AAAFBC31D82992F00BB5175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AAAFBA11D82992F00BB5175 /* Mukidi Style */;
+			targetProxy = 2AAAFBC21D82992F00BB5175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AAAFBA91D82992F00BB5175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAAFBAA1D82992F00BB5175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AAAFBAE1D82992F00BB5175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAAFBAF1D82992F00BB5175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AAAFBC81D82992F00BB5175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AAAFBC91D82992F00BB5175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AAAFBCB1D82992F00BB5175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B9EF70C759A780310AC97E /* Pods-Mukidi Style.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mukidi Style/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-Style";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AAAFBCC1D82992F00BB5175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C69528AC1B7C9CA4D64B337 /* Pods-Mukidi Style.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mukidi Style/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-Style";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AAAFBCE1D82992F00BB5175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48764EFEE96247869C68067B /* Pods-Mukidi StyleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mukidi StyleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-StyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mukidi Style.app/Mukidi Style";
+			};
+			name = Debug;
+		};
+		2AAAFBCF1D82992F00BB5175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62E411F34330B4B6186DD25 /* Pods-Mukidi StyleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mukidi StyleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-StyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mukidi Style.app/Mukidi Style";
+			};
+			name = Release;
+		};
+		2AAAFBD11D82992F00BB5175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11891C97C93B4756D448BCE5 /* Pods-Mukidi StyleUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Mukidi StyleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-StyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mukidi Style";
+			};
+			name = Debug;
+		};
+		2AAAFBD21D82992F00BB5175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA36544BD34585BADBBC634C /* Pods-Mukidi StyleUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Mukidi StyleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Indosystem.Mukidi-StyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mukidi Style";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAAFB9D1D82992F00BB5175 /* Build configuration list for PBXProject "Mukidi Style" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAAFBC81D82992F00BB5175 /* Debug */,
+				2AAAFBC91D82992F00BB5175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAAFBCA1D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi Style" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAAFBCB1D82992F00BB5175 /* Debug */,
+				2AAAFBCC1D82992F00BB5175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAAFBCD1D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi StyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAAFBCE1D82992F00BB5175 /* Debug */,
+				2AAAFBCF1D82992F00BB5175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAAFBD01D82992F00BB5175 /* Build configuration list for PBXNativeTarget "Mukidi StyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAAFBD11D82992F00BB5175 /* Debug */,
+				2AAAFBD21D82992F00BB5175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AAAFB9A1D82992F00BB5175 /* Project object */;
+}

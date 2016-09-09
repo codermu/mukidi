@@ -1,0 +1,6 @@
+framework module Pods_Mukidi_Style {
+  umbrella header "Pods-Mukidi Style-umbrella.h"
+
+  export *
+  module * { export * }
+}
